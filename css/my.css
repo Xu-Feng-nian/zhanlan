@@ -1,0 +1,180 @@
+nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+}
+nav .nav {
+  display: flex;
+  flex-grow: 1;
+  width: 400px;
+  height: 150px;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+nav .nav .nav-tx {
+  flex-grow: 0;
+  width: 100px;
+  height: 100px;
+}
+nav .nav .nav-tx img {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+nav .nav .nav-mc {
+  margin-left: 50px;
+  margin-top: 40px;
+  flex-grow: 1;
+  width: 100px;
+  height: 100px;
+}
+nav .nav .nav-mc span {
+  font-size: 14px;
+}
+nav .nav .nav-mc span i {
+  font-size: 20px;
+  color: purple;
+}
+nav .nav .nav-mc p {
+  margin-top: 10px;
+  width: 85px;
+  background-color: #ccc;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.my-order {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.my-order .order-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 11px;
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 27px 6px rgba(0, 0, 0, 0.12);
+}
+.my-order .order-box .order {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  color: #3a3a3a;
+}
+.my-order .order-box .order span:nth-child(1) {
+  margin-left: 40px;
+  flex-grow: 1;
+  width: 60px;
+  height: 30px;
+}
+.my-order .order-box .order span:nth-child(1) p {
+  width: 60px;
+}
+.my-order .order-box .order span:nth-child(2) {
+  margin-right: 30px;
+  width: 10px;
+  height: 10px;
+}
+.my-order .order-box .state {
+  margin-top: 5px;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+.my-order .order-box .state div {
+  margin-right: 10px;
+  flex-grow: 1;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+}
+.my-order .order-box .state div span i {
+  font-size: 40px;
+}
+.my-order .order-box .state div p {
+  font-size: 14px;
+}
+.center {
+  width: 100%;
+  height: 100%;
+}
+.center .center-box {
+  float: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.center .center-box div {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+}
+.center .center-box div span {
+  display: block;
+  font-size: 40px;
+}
+.center .center-box div p {
+  font-size: 14px;
+}
+.tx {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.tx p {
+  flex-grow: 1;
+  width: 200px;
+  line-height: 200px;
+  font-size: 16px;
+  color: #353535;
+  font-weight: 700;
+}
+footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+footer .foot {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+footer .foot div {
+  flex-grow: 1;
+  text-align: center;
+}
+footer .foot div span {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+footer .foot div span i {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+footer .foot div p {
+  width: 100%;
+  font-size: 14px;
+  color: black;
+}
+footer .foot .foot-box4 i,
+footer .foot .foot-box4 p {
+  color: #ffbb00;
+}

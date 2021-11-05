@@ -1,0 +1,185 @@
+@width:100%;
+@height:100%;
+    nav{
+        display: flex;
+        width: @width;
+        height: @height;
+        margin: 0px auto;
+        .nav{
+            display: flex;
+            flex-grow: 1;
+            width: 400px;
+            height: 150px;
+            background:linear-gradient(to right,#c6ffdd,#fbd786,#f7797d);
+            .nav-tx{
+                flex-grow: 0;
+                width: 100px;
+                height: 100px;
+                img{
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .nav-mc{
+                margin-left: 50px;
+                margin-top: 40px;
+                flex-grow: 1;
+                width: 100px;
+                height: 100px;
+                span{
+                    font-size: 14px;
+                    i{
+                        font-size: 20px;
+                        color: purple;
+                    }
+                }
+                p{
+                    margin-top: 10px;
+                    width: 85px;
+                    background-color: #ccc;
+                    border-radius: 10px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .my-order{
+        margin-top: 20px;
+        width: @width;
+        height: @height;
+        .order-box{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 11px;
+            width: ceil(@width - 5x);
+            height: @height;
+            border-radius: 10px;
+            box-shadow:0 2px 27px 6px rgba(0, 0, 0, .12);
+            .order{
+                margin-left: 10px;
+                margin-right: 10px;
+                display: flex;
+                flex-grow: 1;
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                border-bottom: 1px solid #ccc;
+                font-size: 14px;
+                color: #3a3a3a;
+                span:nth-child(1){
+                    margin-left: 40px;
+                    flex-grow: 1;
+                    width: 60px;
+                    height: 30px;
+                    p{
+                        width: 60px;
+                    }
+                }
+                span:nth-child(2){
+                    margin-right: 30px;
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+            .state{
+                margin-top: 5px;
+                display: flex;
+                flex-grow: 1;
+                width: 100%;
+                div{
+                    margin-right: 10px;
+                    flex-grow: 1;
+                    width: 100px;
+                    height: 70px;
+                    text-align: center;
+                    span{
+                        i{
+                            font-size: 40px;
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .center{
+        width: @width;
+        height: @height;
+        .center-box{
+            // display: flex;
+            float: left;
+            width: @width;
+            height: @height;
+            text-align: center;
+            div{
+                float: left;
+                margin-top: 30px;
+                margin-left: 20px;
+                width: 100px;
+                height: 50px;
+                span{
+                    display: block;
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .tx{
+        margin-top: 10px;
+        display: flex;
+        width: @width;
+        height: 200px;
+        text-align: center;
+        p{
+            flex-grow: 1;
+            width: 200px;
+            line-height: 200px;
+            font-size: 16px;
+            color: #353535;
+            font-weight: 700;
+        }
+    }
+    footer{
+        width: @width;
+        height: @height;
+        display: flex;
+        .foot{
+            position: fixed;
+            bottom: 0px;
+            display: flex;
+            flex-grow: 1;
+            width: 100%;                                              
+            height: 60px;
+            background-color: white;
+        
+            div{
+                flex-grow: 1;
+                text-align: center;
+                span{
+                    display: block;
+                    width: 100%;
+                    margin-top: 10px;
+                    i{
+                        margin-top: 10px;
+                        font-size: 20px;
+                        color: black;
+                    }
+                }
+                p{
+                    width: 100%;
+                    font-size: 14px;
+                    color: black;
+                }
+            }
+            .foot-box4 i,.foot-box4 p{
+                color: #ffbb00;
+            }
+        }
+    }

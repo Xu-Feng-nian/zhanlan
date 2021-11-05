@@ -1,0 +1,157 @@
+.top {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #ff6600;
+  border-radius: 0px 0px 10px 10px;
+}
+.top p {
+  width: 100%;
+  line-height: 50px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+.swi {
+  float: left;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+.swi .swiper-container {
+  width: 100%;
+  height: 200px;
+}
+.swi .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 200px;
+}
+.swi .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 200px;
+}
+.swi .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+.swi2 {
+  float: left;
+  margin-top: 20px;
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+  box-shadow: 0 2px 27px 6px rgba(0, 0, 0, 0.12);
+}
+.swi2 .swiper-container {
+  width: 100%;
+  height: 180px;
+}
+.swi2 .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 180px;
+}
+.swi2 .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.swi2 .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 110px;
+  border-radius: 5px;
+}
+.swi2 .swiper-container .swiper-wrapper .swiper-slide p {
+  margin: 7px 0px;
+}
+.swi2 .swiper-container .swiper-wrapper .swiper-slide p:nth-child(2) {
+  font-size: 10px;
+}
+.swi2 .swiper-container .swiper-wrapper .swiper-slide p:nth-child(3) {
+  font-size: 14px;
+  color: #ff6600;
+}
+.swi3 {
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 2px 27px 6px rgba(0, 0, 0, 0.12);
+}
+.swi3 .swiper-container {
+  width: 100%;
+  height: 500px;
+}
+.swi3 .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 500px;
+}
+.swi3 .swiper-container .swiper-wrapper .swiper-slide {
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.swi3 .swiper-container .swiper-wrapper .swiper-slide h3 {
+  font-size: 14px;
+}
+.swi3 .swiper-container .swiper-wrapper .swiper-slide p {
+  font-size: 12px;
+  text-indent: 20px;
+}
+.tx {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.tx p {
+  flex-grow: 1;
+  width: 200px;
+  line-height: 50px;
+  font-size: 16px;
+  color: #353535;
+  font-weight: 700;
+}
+footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+footer .foot {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  z-index: 3;
+}
+footer .foot div {
+  flex-grow: 1;
+  text-align: center;
+}
+footer .foot div span {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+footer .foot div span i {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+footer .foot div p {
+  width: 100%;
+  font-size: 14px;
+  color: black;
+}
+footer .foot .foot-box2 i,
+footer .foot .foot-box2 p {
+  color: #ffbb00;
+}
